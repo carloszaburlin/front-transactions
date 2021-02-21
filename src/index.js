@@ -1,10 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import App from "./App";
+import { ListTransactions } from "./components/ListTransactions";
 import "./index.css";
 
-ReactDOM.render(
-  <App />,
-
-  document.getElementById("root")
-);
+ReactDOM.render(<ListTransactions />, document.getElementById("root"));
